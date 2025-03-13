@@ -1,0 +1,57 @@
+body {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  text-align: center;
+  padding: 3rem;
+  background-image: url("dog_back.jpg");
+}
+
+#canvas {
+  text-align: center;
+  width: 500px;
+  height: 500px;
+}
+
+#fetch-image {
+  text-align: center;
+}
+
+button {
+  font-size: 2rem;
+  padding: 2rem 2rem 1rem 1rem;
+  margin: auto;
+  cursor: pointer;
+  text-align: center;
+  background-color: aqua;
+  transition: background-color 0.25s;
+}
+
+button:hover {
+  background-color: #f0f0f0;
+}
+
+#json-container {
+  border-radius: 10%;
+  width: 50rem;
+  height: 10rem;
+  background-color: hsl(134, 71%, 73%);
+  font-size: 2rem;
+  margin: auto;
+  padding: 3rem 3rem 4rem 4rem;
+  text-align: center;
+}
+
+canvas {
+  border: 5px solid rgb(37, 145, 218);
+  margin-top: 20px;
+}
+
+#time-container {
+  color: brown;
+  font-size: 2em;
+  background-color: hsl(134, 71%, 73%);
+  width: 50rem;
+  height: 35rem;
+  border-radius: 10%;
+  margin: auto;
+}
