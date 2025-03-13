@@ -1,6 +1,3 @@
-Sure! Here's the updated `README.md` for your project:
-
----
 
 # Dog Image Processor
 
